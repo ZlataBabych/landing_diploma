@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://zlatababych.github.io/landing_diploma/sitemap.xml
