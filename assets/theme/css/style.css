@@ -16,6 +16,18 @@ button {
   border-color: transparent;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 200px;
+
+}
+
 
 .embla__button,
 .carousel-control {
