@@ -45,7 +45,7 @@
 
 
 <header>
-	<nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+	<nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg" aria-label="Основне меню">
 		<div class="container">
 			<div class="navbar-brand">
 				<span class="navbar-logo">
@@ -82,7 +82,7 @@
 
 
 <main>
-    <section data-bs-version="5.1" class="header14 cid-uHpIcPdmVr mbr-fullscreen" id="description">
+    <section data-bs-version="5.1" class="header14 cid-uHpIcPdmVr mbr-fullscreen" id="description" aria-labelledby="description">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-md-6 image-wrapper">
@@ -103,7 +103,7 @@
 
 
 
-    <section data-bs-version="5.1" class="header16 cid-uHpHh3z5Rz" id="introduction">
+    <section data-bs-version="5.1" class="header16 cid-uHpHh3z5Rz" id="introduction" aria-labelledby="introduction">
       <div class="text-center container">
         <div class="row justify-content-center mb-4">
           <div class="col-12 col-lg-8">
@@ -128,7 +128,7 @@
 
 
 
-    <section data-bs-version="5.1" class="article12 cid-uH21srRS9P" id="main_information">
+    <section data-bs-version="5.1" class="article12 cid-uH21srRS9P" id="main_information" aria-labelledby="main_information">
 
         <div class="container">
             <div class="row justify-content-center">
@@ -148,7 +148,7 @@
 
 
 
-    <section data-bs-version="5.1" class="features22 cid-uH23YRvYrg" id="function">
+    <section data-bs-version="5.1" class="features22 cid-uH23YRvYrg" id="function" aria-labelledby="function">
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-12 content-head">
@@ -196,7 +196,7 @@
 
 
 
-    <section data-bs-version="5.1" class="features38 cid-uHpU64bxir" id="topicality">
+    <section data-bs-version="5.1" class="features38 cid-uHpU64bxir" id="topicality" aria-labelledby="topicality">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-12 col-lg">
@@ -231,7 +231,7 @@
 
 
 
-    <section data-bs-version="5.1" class="features017 mbr-embla cid-uHpUCrSX4k" id="main_tasks">
+    <section data-bs-version="5.1" class="features017 mbr-embla cid-uHpUCrSX4k" id="main_tasks" aria-labelledby="main_tasks">
         <div class="position-relative">
             <div class="container-fluid">
                 <div class="row justify-content-center">
@@ -325,7 +325,7 @@
 
 
 
-    <section data-bs-version="5.1" class="article07 cid-uHq0gIpxgi" id="technologies">
+    <section data-bs-version="5.1" class="article07 cid-uHq0gIpxgi" id="technologies" aria-labelledby="technologies">
       <div class="container">
         <div class="row justify-content-center">
           <div class="card col-md-12 col-lg-10">
@@ -336,7 +336,7 @@
                   <div class="item-wrapper">
                     <h4 class="mbr-section-subtitle mbr-fonts-style mb-3 display-5"><strong>База даних: PostgreSQL</strong></h4>
                     <p class="mbr-text mbr-fonts-style display-7">У якості основи для зберігання даних у системі SmartInvent обрано PostgreSQL — одну з найпотужніших і найнадійніших СУБД з відкритим кодом. Вона поєднує в собі високу продуктивність, підтримку складних запитів, масштабованість і строгі гарантії цілісності даних.<br><br>PostgreSQL відповідає за збереження всієї ключової інформації:<br><br>- Назви та характеристики товарів;<br>- Категорії та групи товарів;<br>- Дані про складські приміщення;<br>- Кількість одиниць наявного товару;<br>- Історію переміщень;<br>- Час останніх змін;<br>- Користувачів, що взаємодіють із системою;<br>- Інвентаризацію.
-    <br><br>Для забезпечення логічної цілісності дані організовані в окремі таблиці з чітко визначеними взаємозв’язками між ними. Такі зв’язки реалізуються через зовнішні ключі (foreign keys), що дозволяє уникнути дублювання даних, підтримувати структурну цілісність бази та зручно виконувати складні запити.<br><br>Наприклад, одна таблиця може зберігати загальну інформацію про товар, а інша — історію його переміщення між різними складами. Завдяки коректно налагодженим зв’язкам можна миттєво отримати повну картину руху кожного товару.<br><br></p>
+                    <br><br>Для забезпечення логічної цілісності дані організовані в окремі таблиці з чітко визначеними взаємозв’язками між ними. Такі зв’язки реалізуються через зовнішні ключі (foreign keys), що дозволяє уникнути дублювання даних, підтримувати структурну цілісність бази та зручно виконувати складні запити.<br><br>Наприклад, одна таблиця може зберігати загальну інформацію про товар, а інша — історію його переміщення між різними складами. Завдяки коректно налагодженим зв’язкам можна миттєво отримати повну картину руху кожного товару.<br><br></p>
                   </div>
                 </div>
                 <div class="item features-without-image col-12">
@@ -351,20 +351,18 @@
                     <p class="mbr-text mbr-fonts-style display-7">Android Studio — основне середовище розробки<br>Java — мова програмування для створення мобільного інтерфейсу<br><br>Основні функції додатку:<br><br>-Перегляд поточного списку товарів на складі;<br>- Додавання нових позицій;<br>- Редагування даних про товари;<br>- Перегляд історії переміщень;<br>- Синхронізація з сервером через API.<br><br>Додаток має простий та зручний інтерфейс з адаптацією під різні розміри екранів.<br></p>
                   </div>
                 </div>
-
               </div>
-
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section data-bs-version="5.1" class="clients1 cid-uH22uaWx7B" id="team">
 
 
 
 
+    <section data-bs-version="5.1" class="clients1 cid-uH22uaWx7B" id="team" aria-labelledby="team">
       <div class="container-fluid">
         <div class="row justify-content-center mb-5">
           <div class="col-12 content-head">
@@ -381,7 +379,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-sm-6 card col-lg-4">
             <div class="card-wrap card2">
               <div class="content-wrap">
@@ -389,20 +386,20 @@
               </div>
             </div>
           </div>
-
-
-
-
         </div>
       </div>
     </section>
 
-    <section data-bs-version="5.1" class="features5 cid-uHq434QsbU" id="results">
+
+
+
+
+
+    <section data-bs-version="5.1" class="features5 cid-uHq434QsbU" id="results" aria-labelledby="results">
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-12 content-head">
             <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>Очікувані результати</strong></h3>
-
           </div>
         </div>
         <div class="row">
@@ -463,7 +460,12 @@
       </div>
     </section>
 
-    <section data-bs-version="5.1" class="list1 cid-uH21srSLz6" id="faq">
+
+
+
+
+
+    <section data-bs-version="5.1" class="list1 cid-uH21srSLz6" id="faq" aria-labelledby="faq">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-12 col-lg-10 m-auto">
@@ -552,9 +554,13 @@
         </div>
     </section>
 
-    <section data-bs-version="5.1" class="form5 cid-uH21srTUq6" id="contact_form">
 
 
+
+
+
+
+    <section data-bs-version="5.1" class="form5 cid-uH21srTUq6" id="contact_form" aria-labelledby="contact_form">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 content-head">
@@ -596,9 +602,13 @@
         </div>
     </section>
 </main>
-<footer>
 
-    <section data-bs-version="5.1" class="footer4 cid-uH2fXU6Ixd" once="footers" id="footer">
+
+
+
+
+<footer>
+    <section data-bs-version="5.1" class="footer4 cid-uH2fXU6Ixd" once="footers" id="footer" aria-labelledby="footer">
         <div class="container">
             <div class="media-container-row align-center mbr-white">
                 <div class="col-12">
@@ -610,6 +620,7 @@
         </div>
     </section>
 </footer>
+
 
 </body>
 </html>
