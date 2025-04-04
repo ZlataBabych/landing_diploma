@@ -5,6 +5,8 @@ section {
 
 body {
   font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
   color: #232323;
@@ -26,6 +28,11 @@ img {
     height: auto;
     margin-left: 200px;
 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 
@@ -58,6 +65,11 @@ img {
 .carousel-indicators li:hover,
 .carousel-indicators li:active {
   opacity: 0.8 !important;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 1rem;
 }
 
 .embla__button:hover,
